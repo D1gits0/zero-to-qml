@@ -2,8 +2,11 @@
 
 ## Completed
 - (H⊗I)|00⟩ tensor product — paper math + NumPy verification
+- CNOT applied to (H⊗I)|00⟩ → Bell state, entanglement proved by hand (contradiction) and in code (`entanglement/entanglement.py`)
 
 ## Next session
-CNOT matrix (4×4, not a tensor product — it's a genuinely 2-qubit conditional flip: qubit 2 flips only if qubit 1 is |1⟩). No combination of separate 1-qubit gates can produce this — that's what makes entanglement possible.
+Weeks 3-4: replicate the H⊗I → CNOT → Bell state circuit in Cirq, verify it matches the NumPy `phi` from `entanglement/entanglement.py`.
 
-Plan: apply CNOT to the (H⊗I)|00⟩ result, verify entanglement in the output state.
+Core objects to learn: `cirq.Qubit` (use `cirq.LineQubit`), `cirq.Gate`, `cirq.Operation`. Build a `cirq.Circuit` by appending operations, print it and look at the `cirq.Moment` structure before running it. Pull the state vector with `cirq.Simulator().simulate().state_vector()` and check it against `phi`.
+
+Setup: cirq is already installed (`pip install numpy cirq` — done). File ready: `entanglement/circuit_verification.py` (empty, look up Cirq's qubit/gate/operation basics before writing).
