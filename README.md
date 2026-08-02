@@ -13,3 +13,12 @@ venv\Scripts\activate      # Windows
 
 pip install numpy
 ```
+
+## Tensor products & basic gate math
+
+Paper derivation of (H⊗I)|00⟩, cross-checked against the NumPy verification in [tensor-products/tensor_product_verification.py](tensor-products/tensor_product_verification.py).
+
+<p align="center">
+  <img src="scratch/tensor-products/tpv1.jpg" width="400" alt="Tensor product verification notes, page 1">
+  <img src="scratch/tensor-products/tpv2.jpg" width="400" alt="Tensor product verification notes, page 2">
+</p>
