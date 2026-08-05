@@ -14,9 +14,10 @@ Photos and handwritten notes from phone go here.
 
 ```
 scratch/
-├── tensor-products/   # Tensor products, basic gate math
-├── entanglement/      # Circuit diagrams, CNOT derivations
-└── misc/              # Anything that doesn't fit yet
+├── tensor-products/       # Tensor product derivations
+├── entanglement/          # CNOT / Bell state scratch work
+├── parameterized-gates/   # Ry(theta) and other gate derivations
+└── misc/                  # Anything that doesn't fit yet
 ```
 
 Name files descriptively when you can: `hadamard_derivation.jpg`, `cnot_truth_table.png`, etc.
