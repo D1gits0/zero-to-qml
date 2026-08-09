@@ -10,7 +10,11 @@
 
 **Milestone 1 complete.**
 
+- 2-feature angle encoding: Ry(x1) on q0, Ry(x2) on q1, verified against tensor-product cross-check (`feature-maps/angle_encoding_2feature.py`)
+
+**Milestone 2 (feature maps) in progress.**
+
 ## Next session
-Milestone 2: feature maps / data encoding into quantum circuits.
+Ansatz — build a parameterized trainable layer (Ry rotations + entangling CNOT) that follows the feature map.
 
 Note: zero-to-qml sessions happen only after DSA/applications work is handled that day.
